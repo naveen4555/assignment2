@@ -1,0 +1,260 @@
+/* Styles for the Hero Section */
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #ffeb3b !important;
+}
+
+.hero {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/Hero1.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-text {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.hero-text p {
+    font-size: 1.0rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-text .btn-primary {
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* About Us Section */
+#about {
+    padding: 80px 0;
+    background: #ffffff;
+}
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+#about .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+#about .card:hover {
+    transform: translateY(-10px);
+}
+#about .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+#about .card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+}
+#about img {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+#about img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form Styling */
+#contact {
+    padding: 80px 0;
+    background: #fff;
+}
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+#contact form {
+    background: hsl(243, 100%, 63%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+#contact .form-label {
+    font-weight: bold;
+    color: #ffffff;
+}
+#contact .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1rem;
+}
+#contact .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+#contact textarea {
+    resize: vertical;
+}
+#contact .btn-primary {
+    background: #007bff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+#contact .btn-primary:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #1a1a1a, #333333);
+    color: white;
+    padding: 60px 0 20px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+footer h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer p.text-muted {
+    font-size: 1rem;
+    color: #cccccc !important;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+footer ul.list-unstyled {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+footer ul.list-unstyled li {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+footer ul.list-unstyled li:hover {
+    color: #ffeb3b;
+}
+
+footer ul.list-unstyled li i {
+    margin-right: 10px;
+    color: #ffeb3b;
+    font-size: 1.2rem;
+}
+
+footer hr.bg-light {
+    margin: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p.text-center {
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-bottom: 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Quick Links Styling */
+footer .quick-links a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .quick-links a:hover {
+    color: #ffeb3b;
+}
+
+/* Contact Section Styling */
+footer .contact-info {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+footer .contact-info i {
+    color: #ffeb3b;
+    margin-right: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    footer h5 {
+        font-size: 1.3rem;
+    }
+
+    footer p.text-muted, footer ul.list-unstyled li, footer .contact-info {
+        font-size: 0.9rem;
+    }
+
+    footer .text-center {
+        font-size: 0.8rem;
+    }
+}
+
+/* General Typography */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fix Bootstrap Conflict */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Modal Styles */
+.modal-header {
+    background: #007bff;
+    color: white;
+}
+.modal-footer {
+    background: #f8f9fa;
+}
